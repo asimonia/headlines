@@ -19,8 +19,8 @@ RSS_FEEDS = {'bbc': 'http://feeds.bbci.co.uk/news/rss.xml',
 WEATHER_URL = "http://api.openweathermap.org/data/2.5/weather?q={}&units=metric&APPID=cb932829eacb6a0e9ee4f38bfbf112ed"
 CURRENCY_URL = "https://openexchangerates.org//api/latest.json?app_id=b23c94daab584f4580e4e2bf75cbcf7e"
 
-DEFAULTS = {'publication': 'bbc',
-            'city': 'London,UK',
+DEFAULTS = {'publication': 'cnn',
+            'city': 'Austin,TX',
             'currency_from': 'GBP',
             'currency_to': 'USD'
             }
